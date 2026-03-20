@@ -1,9 +1,11 @@
-public abstract class Persona {
+public class Persona {
     protected String nombre;
 
     public Persona(String nombre) {
         this.nombre = nombre;
     }
 
-    public abstract void mostrarDatos();
+    public void mostrarDatos() {
+        System.out.println("Persona: " + nombre);
+    }
 }
