@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class GestorMatriculas {
+public class GestorMatriculas implements Informacion {
 
     private ArrayList<Matricula> matriculas;
 
@@ -21,7 +21,8 @@ public class GestorMatriculas {
         a.matricular(m);
     }
 
-    public void mostrarTodas() {
+    @Override
+    public void mostrarInformacion() {
         for (Matricula m : matriculas) {
             System.out.println(
                 m.getAlumno().getNombre() + " - " +

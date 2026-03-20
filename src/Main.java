@@ -29,7 +29,7 @@ public class Main {
         curso.mostrarTodo();
 
         System.out.println("------ MATRÍCULAS ------");
-        gestor.mostrarTodas();
+        gestor.mostrarInformacion();
 
         System.out.println("------ APROBADOS ------");
         gestor.mostrarAprobados();
@@ -39,6 +39,6 @@ public class Main {
         gestor.subirNotaTodos(1);
 
         System.out.println("------ TRAS SUBIR NOTAS ------");
-        gestor.mostrarTodas();
+        gestor.mostrarInformacion();
     }
 }
