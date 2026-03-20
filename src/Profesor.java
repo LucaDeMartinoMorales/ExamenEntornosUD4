@@ -1,7 +1,7 @@
 public class Profesor {
 
-    public String nombre;
-    public String especialidad;
+    private String nombre;
+    private String especialidad;
 
     public Profesor(String nombre, String especialidad) {
         this.nombre = nombre;
@@ -10,5 +10,21 @@ public class Profesor {
 
     public void mostrar() {
         System.out.println("Profesor: " + nombre + " - " + especialidad);
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getEspecialidad() {
+        return especialidad;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setEspecialidad(String especialidad) {
+        this.especialidad = especialidad;
     }
 }
