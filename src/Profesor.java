@@ -1,14 +1,15 @@
-public class Profesor {
+public class Profesor extends Persona {
 
     private String nombre;
     private String especialidad;
 
     public Profesor(String nombre, String especialidad) {
-        this.nombre = nombre;
+        super(nombre);
         this.especialidad = especialidad;
     }
 
-    public void mostrar() {
+    @Override
+    public void mostrarDatos() {
         System.out.println("Profesor: " + nombre + " - " + especialidad);
     }
 
