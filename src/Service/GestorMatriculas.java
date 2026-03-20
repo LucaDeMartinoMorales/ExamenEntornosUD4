@@ -5,6 +5,10 @@ import Model.Profesor;
 
 import java.util.ArrayList;
 
+/**
+ * Esta clase sirve para crear las matriculas y mostrar su información, como los alumnos que estan aprobados,
+ * la media de todos los alumnos y un metodo para que puedan subir la nota
+ */
 public class GestorMatriculas implements Informacion {
 
     private ArrayList<Matricula> matriculas;

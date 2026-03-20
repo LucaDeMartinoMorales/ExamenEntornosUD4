@@ -3,6 +3,11 @@ package Model;
 import Service.Matricula;
 import java.util.ArrayList;
 
+/**
+ * Esta es una clase hija de Persona y sirve para crear a un usuario en el programa de tipo alumno
+ * y tiene un metodo para mostrar su información academica.
+ * Tambien tiene un metodo para calcular la media de sus notas
+ */
 public class Alumno extends Persona {
 
     private int edad;
