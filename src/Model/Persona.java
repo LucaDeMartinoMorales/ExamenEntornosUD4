@@ -1,3 +1,5 @@
+package Model;
+
 public class Persona {
     protected String nombre;
 

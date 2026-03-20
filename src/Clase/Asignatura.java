@@ -1,3 +1,5 @@
+package Clase;
+
 public class Asignatura {
 
     private String nombre;

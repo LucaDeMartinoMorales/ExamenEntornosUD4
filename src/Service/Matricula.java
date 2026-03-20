@@ -1,3 +1,9 @@
+package Service;
+
+import Clase.Asignatura;
+import Model.Alumno;
+import Model.Profesor;
+
 public class Matricula implements Informacion {
 
     private Alumno alumno;

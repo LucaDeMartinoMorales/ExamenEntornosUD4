@@ -1,3 +1,10 @@
+package Clase;
+
+import Model.Alumno;
+import Model.Profesor;
+import Service.GestorMatriculas;
+import Service.Matricula;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -12,6 +19,8 @@ public class Main {
 
         Asignatura as1 = new Asignatura("Matematicas");
         Asignatura as2 = new Asignatura("Programacion");
+        Asignatura as3 = new Asignatura("Lengua");
+
 
         curso.agregarAlumno(a1);
         curso.agregarAlumno(a2);

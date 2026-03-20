@@ -1,3 +1,8 @@
+package Service;
+
+import Model.Alumno;
+import Model.Profesor;
+
 import java.util.ArrayList;
 
 public class GestorMatriculas implements Informacion {
@@ -8,7 +13,7 @@ public class GestorMatriculas implements Informacion {
         matriculas = new ArrayList<>();
     }
 
-    public void crearMatricula(Alumno a, Asignatura as, Profesor p, double nota) {
+    public void crearMatricula(Alumno a, Clase.Asignatura as, Profesor p, double nota) {
 
         if (nota < 0) {
             nota = 0;
@@ -58,7 +63,7 @@ public class GestorMatriculas implements Informacion {
             suma += m.getNota();
         }
 
-        if (matriculas.size() == 0) return 0;
+        if (matriculas.isEmpty()) return 0;
 
         return suma / matriculas.size();
     }

@@ -1,3 +1,8 @@
+package Clase;
+
+import Model.Alumno;
+import Model.Profesor;
+
 import java.util.ArrayList;
 
 public class Curso {

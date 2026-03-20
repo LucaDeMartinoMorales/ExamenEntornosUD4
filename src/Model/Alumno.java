@@ -1,3 +1,6 @@
+package Model;
+
+import Service.Matricula;
 import java.util.ArrayList;
 
 public class Alumno extends Persona {
@@ -17,7 +20,7 @@ public class Alumno extends Persona {
 
     @Override
     public void mostrarDatos() {
-        System.out.println("Alumno: " + nombre);
+        System.out.println("Model.Alumno: " + nombre);
 
         for (Matricula m : matriculas) {
             System.out.println("Asignatura: " + m.getAsignatura().getNombre() +
