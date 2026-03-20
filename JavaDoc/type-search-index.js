@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"Model","l":"Alumno"},{"p":"Clase","l":"Asignatura"},{"p":"Clase","l":"Curso"},{"p":"Service","l":"GestorMatriculas"},{"p":"Service","l":"Informacion"},{"p":"Clase","l":"Main"},{"p":"Service","l":"Matricula"},{"p":"Model","l":"Persona"},{"p":"Model","l":"Profesor"}];updateSearchResults();
